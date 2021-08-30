@@ -32,7 +32,7 @@ Follow the steps below to complete the code challenge:
 
 -[x] 4. Inside the `<div>` element created in step two, append two `<button>` elements with text of "Yellow" & "Delete". 
 
--[] 5. In a CSS file, any `<div>` created using the "Generate" button should start with red as it's `background-color`.
+-[x] 5. In a CSS file, any `<div>` created using the "Generate" button should start with red as it's `background-color`.
 
 -[] 6. Clicking a "Yellow" `<button>` should change its parent `background-color` from red to yellow.
 
