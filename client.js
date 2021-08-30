@@ -3,6 +3,8 @@ $(document).ready(readyNow);
 function readyNow(){
     console.log('Document ready'); // validating sourcing
     $('#generate-button').on('click', addDiv);
+    $('.add-content').on('click', '.make-yellow', makeYellow)
+    $('.add-content').on('click', '.delete-color-row', deleteRow)
 }
 let clickCount = 0; // initializing a variable for a counter
 
@@ -12,13 +14,18 @@ function addDiv() {
     $('.add-content').append(`
     <div class='added-div'>
     <p>Number of clicks: ${clickCount} </p>
-    <button class="make-yellow" id ="yellow-${clickCount}">Yellow</button>
+    <button class="make-yellow" id="make-yellow-${clickCount}">Yellow</button>
     <button class="delete-color-row">Delete</button>
     </div>`) // add a div with the click count to the DOM
-    $('#yellow-1').on('click', nextFunction);
 }
 
-function nextFunction(){
+function makeYellow(){
+   // event.preventDefault();
     console.log('it worked!');
-    
+    console.log($(this));
+    $(this).parent().addClass('now-yellow');
+}
+
+function deleteRow() {
+    $(this)
 }

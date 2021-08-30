@@ -5,3 +5,7 @@ body {
 .added-div {
     background-color: red;
 }
+
+.now-yellow {
+    background-color: yellow;
+}
