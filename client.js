@@ -13,7 +13,7 @@ function addDiv() {
     clickCount++; // add one to counter
     $('.add-content').append(`
     <div class='added-div'>
-    <p>Number of clicks: ${clickCount} </p>
+    <p>${clickCount} </p>
     <button class="make-yellow" id="make-yellow-${clickCount}">Yellow</button>
     <button class="delete-color-row">Delete</button>
     </div>`) // add a div with the click count to the DOM
@@ -27,5 +27,5 @@ function makeYellow(){
 }
 
 function deleteRow() {
-    $(this)
+    $(this).parent().remove();
 }

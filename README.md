@@ -34,9 +34,9 @@ Follow the steps below to complete the code challenge:
 
 -[x] 5. In a CSS file, any `<div>` created using the "Generate" button should start with red as it's `background-color`.
 
--[] 6. Clicking a "Yellow" `<button>` should change its parent `background-color` from red to yellow.
+-[x] 6. Clicking a "Yellow" `<button>` should change its parent `background-color` from red to yellow.
 
--[] 7. Clicking a "Delete" `<button>` should remove its parent `<div>` and that `<div>s` children (including the clicked on "Delete" button). 
+-[x] 7. Clicking a "Delete" `<button>` should remove its parent `<div>` and that `<div>s` children (including the clicked on "Delete" button). 
 
 No need to do anything beyond the challenge described above. Once you are complete, check your code into a GitHub repo and submit via this application.
 
