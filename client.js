@@ -12,7 +12,13 @@ function addDiv() {
     $('.add-content').append(`
     <div class='added-div'>
     <p>Number of clicks: ${clickCount} </p>
-    <button class="make-yellow">Yellow</button>
+    <button class="make-yellow" id ="yellow-${clickCount}">Yellow</button>
     <button class="delete-color-row">Delete</button>
     </div>`) // add a div with the click count to the DOM
+    $('#yellow-1').on('click', nextFunction);
+}
+
+function nextFunction(){
+    console.log('it worked!');
+    
 }
